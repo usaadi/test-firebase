@@ -15,8 +15,12 @@
  */
 
 // TODO(DEVELOPER): Import the Cloud Functions for Firebase and the Firebase Admin modules here.
+const functions = require('firebase-functions');
+const admin = require('admin');
+admin.initializeApp();
 
 // TODO(DEVELOPER): Write the addWelcomeMessages Function here.
+
 
 // TODO(DEVELOPER): Write the blurOffensiveImages Function here.
 

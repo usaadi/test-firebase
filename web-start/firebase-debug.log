@@ -1,0 +1,49 @@
+[debug] [2018-04-28T12:29:25.534Z] ----------------------------------------------------------------------
+[debug] [2018-04-28T12:29:25.550Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\John\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-04-28T12:29:25.550Z] CLI Version:   3.18.4
+[debug] [2018-04-28T12:29:25.550Z] Platform:      win32
+[debug] [2018-04-28T12:29:25.550Z] Node Version:  v8.11.1
+[debug] [2018-04-28T12:29:25.550Z] Time:          Sat Apr 28 2018 15:29:25 GMT+0300 (Jordan Daylight Time)
+[debug] [2018-04-28T12:29:25.550Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-28T12:29:25.566Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-28T12:29:25.566Z] > authorizing via signed-in user
+[debug] [2018-04-28T12:29:25.566Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-28T12:29:25.566Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/tNpqykMt19TmGD09mPphtRdLY2dGqlJAqT8vX1CEmqc',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Apr 28 2018 15:29:25 GMT+0300 (Jordan Daylight Time)
+[debug] [2018-04-28T12:29:27.015Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-28T12:29:27.035Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendlychat-6cccb  
+  
+ Sat Apr 28 2018 15:29:27 GMT+0300 (Jordan Daylight Time)
+[debug] [2018-04-28T12:29:29.549Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-28T12:29:29.549Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/friendlychat-6cccb/tokens  
+  
+ Sat Apr 28 2018 15:29:29 GMT+0300 (Jordan Daylight Time)
+[debug] [2018-04-28T12:29:30.363Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-28T12:29:30.363Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-6cccb  
+  
+ Sat Apr 28 2018 15:29:30 GMT+0300 (Jordan Daylight Time)
+[debug] [2018-04-28T12:29:31.910Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\John\Documents\Projects\2018\firebase\1\friendlychat-web\web-start'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-28T12:29:34.159Z] Fetching environment
+[debug] [2018-04-28T12:29:34.159Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/721842272873:getServerAppConfig  
+  
+ Sat Apr 28 2018 15:29:34 GMT+0300 (Jordan Daylight Time)
+[debug] [2018-04-28T12:29:34.159Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/721842272873/clients/_:getWebAppConfig  
+  
+ Sat Apr 28 2018 15:29:34 GMT+0300 (Jordan Daylight Time)
+[debug] [2018-04-28T12:29:35.783Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-28T12:29:35.783Z] Starting @google-cloud/functions-emulator
+[debug] [2018-04-28T12:29:35.908Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-28T12:29:40.049Z] Parsing function triggers
